@@ -1,6 +1,5 @@
 #!/bin/bash
 
-docker run -it --rm -p 11200:11200 nycdsa/linux-toolkits
 mkdir /home/ubuntu/Applications
 mkdir /home/ubuntu/Applications/dss
 cd /home/ubuntu/Applications
