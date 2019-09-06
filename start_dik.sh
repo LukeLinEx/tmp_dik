@@ -5,7 +5,7 @@ mkdir /home/ubuntu/Applications/dss
 cd /home/ubuntu/Applications
 wget http://downloads.dataiku.com/public/studio/5.1.5/dataiku-dss-5.1.5.tar.gz
 
-tar xzf dataiku-dss-5.1.5.tar.gz -C ./dss (This one takes some time)
+tar xzf dataiku-dss-5.1.5.tar.gz -C ./dss
 cd dss
 dataiku-dss-5.1.5/installer.sh -d ./data_directory -p 11200
 
